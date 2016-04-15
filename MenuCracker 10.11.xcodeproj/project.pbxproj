@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0611D0E1BC2300D00059D8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0611D0D1BC2300D00059D8D /* AppDelegate.m */; };
+		A0611D111BC2300D00059D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0611D101BC2300D00059D8D /* main.m */; };
+		A0611D131BC2300D00059D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0611D121BC2300D00059D8D /* Assets.xcassets */; };
+		A0611D161BC2300D00059D8D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0611D141BC2300D00059D8D /* MainMenu.xib */; };
+		A0611D1E1BC2304100059D8D /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0611D1D1BC2304100059D8D /* ServiceManagement.framework */; };
+		A0611D261BC2315900059D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0611D251BC2315900059D8D /* main.m */; };
+		A0611D2C1BC2318600059D8D /* BarsoomPrivilegedHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A0611D2B1BC2318600059D8D /* BarsoomPrivilegedHelper.m */; settings = {ASSET_TAGS = (); }; };
+		A0611D331BC2346E00059D8D /* com.fabriceleyne.barsoomPrivilegedHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0611D231BC2315900059D8D /* com.fabriceleyne.barsoomPrivilegedHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A0611D361BC239B600059D8D /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A0611D351BC239B600059D8D /* Common.m */; settings = {ASSET_TAGS = (); }; };
+		A0611D371BC239C500059D8D /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A0611D351BC239B600059D8D /* Common.m */; settings = {ASSET_TAGS = (); }; };
+		A0611D3A1BC23ACD00059D8D /* BARSManageSystemHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A0611D391BC23ACD00059D8D /* BARSManageSystemHelper.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0611D301BC2344900059D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0611D011BC2300D00059D8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0611D221BC2315900059D8D;
+			remoteInfo = BarsoomPrivilegedHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0611D211BC2315900059D8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A0611D321BC2346100059D8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				A0611D331BC2346E00059D8D /* com.fabriceleyne.barsoomPrivilegedHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0611D091BC2300D00059D8D /* MenuCracker 10.11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MenuCracker 10.11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0611D0C1BC2300D00059D8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0611D0D1BC2300D00059D8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0611D101BC2300D00059D8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0611D121BC2300D00059D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0611D151BC2300D00059D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A0611D171BC2300D00059D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0611D1D1BC2304100059D8D /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		A0611D231BC2315900059D8D /* com.fabriceleyne.barsoomPrivilegedHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.fabriceleyne.barsoomPrivilegedHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0611D251BC2315900059D8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0611D2A1BC2318600059D8D /* BarsoomPrivilegedHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarsoomPrivilegedHelper.h; sourceTree = "<group>"; };
+		A0611D2B1BC2318600059D8D /* BarsoomPrivilegedHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarsoomPrivilegedHelper.m; sourceTree = "<group>"; };
+		A0611D2D1BC231A000059D8D /* BarsoomPrivilegedHelper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BarsoomPrivilegedHelper-Info.plist"; sourceTree = "<group>"; };
+		A0611D2F1BC231E700059D8D /* BarsoomPrivilegedHelper-Launchd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarsoomPrivilegedHelper-Launchd.plist"; sourceTree = "<group>"; };
+		A0611D341BC239B600059D8D /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		A0611D351BC239B600059D8D /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		A0611D381BC23ACD00059D8D /* BARSManageSystemHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARSManageSystemHelper.h; sourceTree = "<group>"; };
+		A0611D391BC23ACD00059D8D /* BARSManageSystemHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARSManageSystemHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0611D061BC2300D00059D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0611D1E1BC2304100059D8D /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0611D201BC2315900059D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0611D001BC2300D00059D8D = {
+			isa = PBXGroup;
+			children = (
+				A0611D1D1BC2304100059D8D /* ServiceManagement.framework */,
+				A0611D0B1BC2300D00059D8D /* BarsoomByPH */,
+				A0611D241BC2315900059D8D /* BarsoomPrivilegedHelper */,
+				A0611D0A1BC2300D00059D8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0611D0A1BC2300D00059D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0611D091BC2300D00059D8D /* MenuCracker 10.11.app */,
+				A0611D231BC2315900059D8D /* com.fabriceleyne.barsoomPrivilegedHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0611D0B1BC2300D00059D8D /* BarsoomByPH */ = {
+			isa = PBXGroup;
+			children = (
+				A0611D381BC23ACD00059D8D /* BARSManageSystemHelper.h */,
+				A0611D391BC23ACD00059D8D /* BARSManageSystemHelper.m */,
+				A0611D0C1BC2300D00059D8D /* AppDelegate.h */,
+				A0611D0D1BC2300D00059D8D /* AppDelegate.m */,
+				A0611D121BC2300D00059D8D /* Assets.xcassets */,
+				A0611D141BC2300D00059D8D /* MainMenu.xib */,
+				A0611D171BC2300D00059D8D /* Info.plist */,
+				A0611D0F1BC2300D00059D8D /* Supporting Files */,
+			);
+			path = BarsoomByPH;
+			sourceTree = "<group>";
+		};
+		A0611D0F1BC2300D00059D8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0611D101BC2300D00059D8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0611D241BC2315900059D8D /* BarsoomPrivilegedHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A0611D341BC239B600059D8D /* Common.h */,
+				A0611D351BC239B600059D8D /* Common.m */,
+				A0611D2D1BC231A000059D8D /* BarsoomPrivilegedHelper-Info.plist */,
+				A0611D2F1BC231E700059D8D /* BarsoomPrivilegedHelper-Launchd.plist */,
+				A0611D2A1BC2318600059D8D /* BarsoomPrivilegedHelper.h */,
+				A0611D2B1BC2318600059D8D /* BarsoomPrivilegedHelper.m */,
+				A0611D251BC2315900059D8D /* main.m */,
+			);
+			path = BarsoomPrivilegedHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0611D081BC2300D00059D8D /* MenuCracker 10.11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0611D1A1BC2300D00059D8D /* Build configuration list for PBXNativeTarget "MenuCracker 10.11" */;
+			buildPhases = (
+				A0611D051BC2300D00059D8D /* Sources */,
+				A0611D061BC2300D00059D8D /* Frameworks */,
+				A0611D071BC2300D00059D8D /* Resources */,
+				A0611D321BC2346100059D8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0611D311BC2344900059D8D /* PBXTargetDependency */,
+			);
+			name = "MenuCracker 10.11";
+			productName = BarsoomByPH;
+			productReference = A0611D091BC2300D00059D8D /* MenuCracker 10.11.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0611D221BC2315900059D8D /* BarsoomPrivilegedHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0611D271BC2315900059D8D /* Build configuration list for PBXNativeTarget "BarsoomPrivilegedHelper" */;
+			buildPhases = (
+				A0611D1F1BC2315900059D8D /* Sources */,
+				A0611D201BC2315900059D8D /* Frameworks */,
+				A0611D211BC2315900059D8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarsoomPrivilegedHelper;
+			productName = BarsoomPrivilegedHelper;
+			productReference = A0611D231BC2315900059D8D /* com.fabriceleyne.barsoomPrivilegedHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0611D011BC2300D00059D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Fabrice Leyne";
+				TargetAttributes = {
+					A0611D081BC2300D00059D8D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A0611D221BC2315900059D8D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A0611D041BC2300D00059D8D /* Build configuration list for PBXProject "MenuCracker 10.11" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0611D001BC2300D00059D8D;
+			productRefGroup = A0611D0A1BC2300D00059D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0611D081BC2300D00059D8D /* MenuCracker 10.11 */,
+				A0611D221BC2315900059D8D /* BarsoomPrivilegedHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0611D071BC2300D00059D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0611D131BC2300D00059D8D /* Assets.xcassets in Resources */,
+				A0611D161BC2300D00059D8D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0611D051BC2300D00059D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0611D371BC239C500059D8D /* Common.m in Sources */,
+				A0611D3A1BC23ACD00059D8D /* BARSManageSystemHelper.m in Sources */,
+				A0611D111BC2300D00059D8D /* main.m in Sources */,
+				A0611D0E1BC2300D00059D8D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0611D1F1BC2315900059D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0611D361BC239B600059D8D /* Common.m in Sources */,
+				A0611D2C1BC2318600059D8D /* BarsoomPrivilegedHelper.m in Sources */,
+				A0611D261BC2315900059D8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0611D311BC2344900059D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0611D221BC2315900059D8D /* BarsoomPrivilegedHelper */;
+			targetProxy = A0611D301BC2344900059D8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0611D141BC2300D00059D8D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0611D151BC2300D00059D8D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0611D181BC2300D00059D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0611D191BC2300D00059D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0611D1B1BC2300D00059D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BarsoomByPH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabriceleyne.BarsoomByPH;
+				PRODUCT_NAME = "MenuCracker 10.11";
+			};
+			name = Debug;
+		};
+		A0611D1C1BC2300D00059D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BarsoomByPH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabriceleyne.BarsoomByPH;
+				PRODUCT_NAME = "MenuCracker 10.11";
+			};
+			name = Release;
+		};
+		A0611D281BC2315900059D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				INFOPLIST_FILE = "BarsoomPrivilegedHelper/BarsoomPrivilegedHelper-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"BarsoomPrivilegedHelper/BarsoomPrivilegedHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"BarsoomPrivilegedHelper/BarsoomPrivilegedHelper-Launchd.plist",
+				);
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = com.fabriceleyne.barsoomPrivilegedHelper;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A0611D291BC2315900059D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				INFOPLIST_FILE = "BarsoomPrivilegedHelper/BarsoomPrivilegedHelper-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"BarsoomPrivilegedHelper/BarsoomPrivilegedHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"BarsoomPrivilegedHelper/BarsoomPrivilegedHelper-Launchd.plist",
+				);
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = com.fabriceleyne.barsoomPrivilegedHelper;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0611D041BC2300D00059D8D /* Build configuration list for PBXProject "MenuCracker 10.11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0611D181BC2300D00059D8D /* Debug */,
+				A0611D191BC2300D00059D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0611D1A1BC2300D00059D8D /* Build configuration list for PBXNativeTarget "MenuCracker 10.11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0611D1B1BC2300D00059D8D /* Debug */,
+				A0611D1C1BC2300D00059D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0611D271BC2315900059D8D /* Build configuration list for PBXNativeTarget "BarsoomPrivilegedHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0611D281BC2315900059D8D /* Debug */,
+				A0611D291BC2315900059D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0611D011BC2300D00059D8D /* Project object */;
+}
